@@ -17,6 +17,9 @@ for num in y:
   x.append(num)
 print(x)
 
+x.extend(y) # joining lists
+print(x)
+
 # Change x so that it is [1, 2, 3, 4, 9, 10]
 
 x.remove(8)
